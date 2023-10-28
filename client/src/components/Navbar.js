@@ -124,10 +124,10 @@ export default function Navbar() {
         <Divider />
 
         <List>
-          {["User Data", "Bar Chart"].map((text, index) => (
+          {[ "Analytics ","Data"].map((text, index) => (
             <ListItem key={text} disablePadding>
               <ListItemButton>
-                <Link to={text === "User Data" ? "/user" : "/barchart"}>
+                <Link to={text === "Data" ? "/user" : "/barchart"}>
                   <ListItemText
                     primary={text}
                     sx={{ fontSize: 19, fontWeight: 600 }}

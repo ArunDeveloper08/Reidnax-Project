@@ -36,7 +36,7 @@ const defaultTheme = createTheme();
     }else{
         // localStorage.setItem('isAuthenticated', true)
         setIsAuth(true);
-        navigate("/user")
+        navigate("/barchart")
     }
    
   };
